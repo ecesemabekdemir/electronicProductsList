@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 16px;
+}
+
+#salesForm {
+  margin-bottom: 20px;
+}
+
+#productList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#productList li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+ 
+
+}
+
+#salesForm p {
+  margin: 20px 0;
+}
+
+#salesForm label {
+  margin-left: 10px;
+}
+
+#salesForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#salesForm button:hover {
+  background-color: #0056b3;
+}
+
+ h4 {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.formInRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.formInRow input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formInRow button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formInRow button:hover {
+  background-color: #218838;
+}
+
+li {
+  list-style: none;
+}
+
+.editControls svg {
+height: 16px;
+width: 16px;
+}
+
+.editControls {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.product {
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin-bottom: 10px;
+}

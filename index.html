@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>electronicProductsList</title>
+  <link rel="stylesheet" href="assets/css/electronicP.css">
+  <script src="assets/js/electronicP.js"defer></script>
+</head>
+<body>
+  <div class="container">
+    <h3>Ürün Listesi</h3>
+  
+    <form id="salesForm">
+      <div id="electronicProductsList"></div>
+      <p>
+        Ödeme Türü :
+        <label><input checked required type="radio" name="paymentType" value="1"> Kredi Kartı</label>
+      </p>
+      <button>Satış Yap</button>
+    </form>
+  
+    <h4>Toplam Satış: <span id="salesTotal">0</span>$</h4>
+  
+    <h3>Stok</h3>
+    
+    <fieldset>
+      <legend>Ürün Ekle</legend>
+      <form id="newProductForm" class="formInRow">
+        <input required name="name" type="text" placeholder="Ürün Adı">
+        <input required name="stock" type="number" placeholder="Stok">
+        <input required name="origin" type="text" placeholder="Kökeni">
+        <input required class="price" name="price" type="number" placeholder="Fiyat">
+        <input required name="category" type="text" placeholder="Kategori">
+        <input required name="icon" type="text" placeholder="icon">
+        <button>Ekle</button> 
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Ürün Güncelle</legend>
+      <form id="editProductForm" class="formInRow">
+        <input required name="name" type="text" placeholder="Ürün Adı">
+        <input required name="stock" type="number" placeholder="Stok">
+        <input required name="origin" type="text" placeholder="Kökeni">
+        <input required name="price" type="number" placeholder="Fiyat">
+        <input required name="category" type="text" placeholder="Kategori">
+        <input required name="icon" type="text" placeholder="icon">
+        <button>Düzenle</button>
+        <button id="deleteBtn">Sil</button>
+      </form>
+    </fieldset>
+  </div>
+</body>
+</html>
